@@ -3,7 +3,7 @@ import pandas as pd
 import visualize, classify
 
 # Open DART API KEY 설정
-api_key='b7ab80ca358ac9f71c4d280496e1c2d003910894'
+api_key='Your api key'
 dart.set_api_key(api_key=api_key)
 corporations = dart.get_corp_list()
 
